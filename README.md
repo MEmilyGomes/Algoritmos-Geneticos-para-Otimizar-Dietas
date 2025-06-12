@@ -15,6 +15,8 @@
 
 ## 🗂️ Dataset
 
+<p align="justify"> <br> [Dataset](https://github.com/RaquelGVianna/Algoritmos-Geneticos-para-Otimizar-Dietas/blob/main/Left%20Hand%20Matrix%20from%20All%20Observed%20Food%20Patterns%20of%20Patients.csv)<br> </p>
+
 ## 🪼 Funções adaptadas para o problema das dietas otimizadas
 
 ## 🔢 Resultados obtidos
