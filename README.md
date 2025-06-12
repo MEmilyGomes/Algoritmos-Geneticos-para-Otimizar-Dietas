@@ -43,7 +43,7 @@
 **Orientação e Revisão:** Prof. Dr. Daniel R. Cassar.
  -->
 
- <h2 align="center"> :octocat:  Autores </h2>
+ <h2 align="center"> :octocat:  Autoras </h2>
 
 <div align="center">
 
