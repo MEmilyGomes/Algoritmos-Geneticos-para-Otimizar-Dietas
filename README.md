@@ -9,27 +9,21 @@
 </p>
 
 ## 📝 Descrição
-<p align="justify"> </p>
+<p align="justify">Atualmente, a população mundial enfrenta dificuldades para zelar plenamente por sua saúde. Nesse cenário, rotas para auxiliar no cuidado individual com a alimentação desempenham papel fundamental na busca por um estilo de vida de qualidade. Contudo, a elaboração de uma dieta adequada é trabalhosa e demanda investigação pessoal e profissional voltada para o interesse e motivação do paciente. Diante dessa temática e em conjunto com conceitos apresentados no contexto de algoritmos genéticos, o grupo propôs elaborar uma solução para a busca de dietas, tratando-a como um problema de otimização. Ao se falar em busca de dietas otimizadas, o objetivo é encontrar algumas opções de dietas que se apresentem como as melhores diante das restrições fornecidas. Para isso, adaptamos a função para gerar genes de caixa não binária, considerando que o intervalo razoável de porções de um alimento por dia varia entre 0 e 3. Além disso, desenvolveu-se uma função objetivo que penaliza cada gene fora do intervalo definido — as restrições — e utilizou-se dois tipos de seleção: por torneio e por amostragem universal estocástica.</p>
 
 ## 📔 Notebooks e arquivos do projeto
+* `Left Hand Matrix from All Observed Food Patterns of Patients.csv`: Dataset utilizado encontrado em: [CSSEHealthcare/Dietary-Behavior-Dataset](https://github.com/CSSEHealthcare/Dietary-Behavior-Dataset) - This repository includes dietary data from the NHANES 2015-2016 survey in a workable format for researchers. Additional samples from hypertension and prediabetic patients are also provided.
 
-## 🗂️ Dataset
-
-<p align="justify"> <br> [Dataset](https://github.com/RaquelGVianna/Algoritmos-Geneticos-para-Otimizar-Dietas/blob/main/Left%20Hand%20Matrix%20from%20All%20Observed%20Food%20Patterns%20of%20Patients.csv)<br> </p>
+* `README.md`: descrição geral do projeto.
 
 ## 🪼 Funções adaptadas para o problema das dietas otimizadas
-
-## 🔢 Resultados obtidos
 
 ## 😁 Conclusão
 
 ## 🖇️ Informações técnicas
- <!-- 
 * Linguagem de programação: `Python 3.9`
 * Software:  `Jupyter Notebook`
-* Bibliotecas e Módulos: `random`
-<br>
- -->
+* Bibliotecas e Módulos: `random`, `deap`
 
  ## 👩‍🦳 Referências
 
