@@ -13,12 +13,14 @@
 
 ## 📔 Notebooks e arquivos do projeto
 * `Left Hand Matrix from All Observed Food Patterns of Patients.csv`: Dataset utilizado encontrado em: [CSSEHealthcare/Dietary-Behavior-Dataset](https://github.com/CSSEHealthcare/Dietary-Behavior-Dataset) - This repository includes dietary data from the NHANES 2015-2016 survey in a workable format for researchers. Additional samples from hypertension and prediabetic patients are also provided.
-
+* `notebook_principal.ipynb`:
+* `funcoes_dieta.py`: Script com as funções criadas para o algoritmo genético no problema de dietas otimizadas.
 * `README.md`: descrição geral do projeto.
 
 ## 🪼 Funções adaptadas para o problema das dietas otimizadas
 
 ## 😁 Conclusão
+<p align="justify">Por fim, a função de criação de genes, a função objetivo e a função de seleção — que combina dois métodos: torneio e amostragem universal estocástica — foram devidamente implementadas em conjunto com as de algoritmos genéticos da biblioteca <code>deap</code>, a qual foi fundamental para encontrar, com eficiência, diversas dietas capazes de se adequar às restrições propostas. Ao implementar todas as funções necessárias para adaptar o algoritmo genético ao problema das dietas otimizadas, realizou-se a validação do código com três conjuntos distintos de restrições: uma dieta básica para um estilo de vida saudável, uma com o objetivo de emagrecimento e outra voltada para fisiculturistas. A ideia é demonstrar que, de acordo com o objetivo do indivíduo, haverá diferentes restrições e que, a partir delas e de um dataset com as informações nutricionais dos alimentos, é possível encontrar uma dieta personalizada.</p>
 
 ## 🖇️ Informações técnicas
 * Linguagem de programação: `Python 3.9`
