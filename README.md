@@ -59,3 +59,11 @@
 
 | [<img loading="lazy" src="https://github.com/user-attachments/assets/463d4753-7fa4-4a42-aa54-409e4150bb51" width=115><br> <sub> Prof. Dr. Daniel R. Cassar </sub>](https://github.com/drcassar)<br> [<sub>Ilum - CNPEM</sub>](https://ilum.cnpem.br/)<br> [<sub>Currículo Lattes</sub>](http://lattes.cnpq.br/1717397276752482) |
 | :---: |
+
+#### Para o Projeto e para Repositório GitHub:
+* Katarina Vilarins: implementação da função objetivo e comentários no notebook.  
+* Emily Gomes: implementação do `deap`, implementação da função objetivo e README.  
+* Raquel Vianna: implementação do `deap`, implementação da função mista, implementação da função objetivo e README.  
+
+
+**Orientação e Revisão:** Prof. Dr. Daniel R. Cassar.
