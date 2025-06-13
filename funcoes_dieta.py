@@ -47,7 +47,7 @@ def funcao_objetivo_dieta(candidato, data, restricoes, valores_maximos):
 
         if valor_nutriente < restricao[0] or valor_nutriente > restricao[1]: #se for menor que o mínimo ou maior que o máximo estipulados, punimos!
             fitness += (maximo_nutriente * distancia) #punição
-            ###OBS: Se der ruim depois - demorar pra convergir ou sla, adicionamos 44 multiplicando a punição do fitnes
+            ###OBS: Se der ruim depois - demorar pra convergir, por exemplo, adicionamos 44 multiplicando a punição do fitnes
         else:
             fitness += distancia
     
