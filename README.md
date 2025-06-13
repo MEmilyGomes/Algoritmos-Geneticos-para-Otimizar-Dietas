@@ -31,8 +31,6 @@ Visando solucionar o problema proposto, foi necessário criar funções adaptada
 * Software:  `Jupyter Notebook`
 * Bibliotecas e Módulos: `random`, `deap`
 
- ## 👩‍🦳 Referências
-
  <!-- 
  ## 🧠 Contribuições dos Colaboradores
 
