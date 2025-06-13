@@ -18,13 +18,13 @@
 * `README.md`: descrição geral do projeto.
 
 ## 🪼 Funções adaptadas para o problema das dietas otimizadas
-Visando solucionar o problema proposto, foi necessário realizar adaptações em funções.
+Visando solucionar o problema proposto, foi necessário criar funções adaptadas para otimizar dietas. Nesse sentido, as seguintes funções tiveram que ser desenvolvidas:
 - Etapa de criação de indivíduos
-  - `cria_gene_dieta`
+  - `cria_gene_dieta`: Função adaptada do problema das caixas não binárias para criar um gene no contexto de otimização de dietas - podendo assumir valor de 0 a 3, correspondendo a quantidade de porções de cada alimento.
 - Etapa de seleção
-  - `selecao_mista`
+  - `selecao_mista`: Função definida para realizar dois processos de seleção na população - a seleção por torneio e a seleção por amostragem universal estocástica (SUS).
 - Função objetivo
-  - `funcao_obj`
+  - `funcao_objetivo_dieta`: Função que compara a distância dos valores nutritivos da dieta candidata (indivíduo) perante o valor ideal (média) das restrições (limite mínimo e máximo) definidos para cada nutriente, a função definida aplica uma punição ao indivíduo caso seus valores nutricionais estejam fora dos limites estipulados.
 
 ## 😁 Conclusão
 <p align="justify">Por fim, a função de criação de genes, a função objetivo e a função de seleção — que combina dois métodos: torneio e amostragem universal estocástica — foram devidamente implementadas em conjunto com as de algoritmos genéticos da biblioteca <code>deap</code>, a qual foi fundamental para encontrar, com eficiência, diversas dietas capazes de se adequar às restrições propostas. Ao implementar todas as funções necessárias para adaptar o algoritmo genético ao problema das dietas otimizadas, realizou-se a validação do código com três conjuntos distintos de restrições: uma dieta básica para um estilo de vida saudável, uma com o objetivo de emagrecimento e outra voltada para fisiculturistas. A ideia é demonstrar que, de acordo com o objetivo do indivíduo, haverá diferentes restrições e que, a partir delas e de um dataset com as informações nutricionais dos alimentos, é possível encontrar uma dieta personalizada.</p>
